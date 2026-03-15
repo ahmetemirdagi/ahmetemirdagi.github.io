@@ -3,7 +3,7 @@ title: "Ratio shift keying modulation for time-varying molecular communication c
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-date: "2024-01-01"
+date: "2023-07-25"
 venue: 'IEEE Transactions on NanoBioScience'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10193791/'
 citation: 'M. O. Araz, A. R. Emirdagi, M. S. Kopuzlu and M. Kuscu, "Ratio Shift Keying Modulation for Time-Varying Molecular Communication Channels," in IEEE Transactions on NanoBioscience, vol. 23, no. 1, pp. 176-189, Jan. 2024, doi: 10.1109/TNB.2023.3298600.'
