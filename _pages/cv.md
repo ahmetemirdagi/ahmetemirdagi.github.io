@@ -20,10 +20,10 @@ Work experience
 
 * Jan 2024 – Present: **Graduate Researcher**
   * **Inan Research Lab, Georgia Institute of Technology**, Atlanta, GA
-  * Developed a 1D diffusion model for denoising seismocardiogram (SCG) signals for wearable health applications
+  * Developed an efficient inference framework for diffusion models for edge devices for wearable devices.
   * Led domain adaptation research for joint acoustic emission (JAE) data to improve generalization across sensing platforms
   * Conducted statistical analysis of JAE features in osteoarthritis patients
-  * Co-authored a public dataset of annotated SCG waveforms and fiducial markers
+  * Co-authored several Q1 journal articles and conference papers. 
   * Supervisor: **Prof. Omer T. Inan**
 
 * June 2021 – Jan 2022: **AI and Signal Processing Intern**
