@@ -11,26 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical and Computer Engineering, Georgia Institute of Technology, 2024 - 
+* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2024-2026
+* B.S. in Electrical and Electronics Engineering, 2018-2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2024 – Present: **Graduate Researcher**
+  * **Inan Research Lab, Georgia Institute of Technology**, Atlanta, GA
+  * Developed a 1D diffusion model for denoising seismocardiogram (SCG) signals for wearable health applications
+  * Led domain adaptation research for joint acoustic emission (JAE) data to improve generalization across sensing platforms
+  * Conducted statistical analysis of JAE features in osteoarthritis patients
+  * Co-authored a public dataset of annotated SCG waveforms and fiducial markers
+  * Supervisor: **Prof. Omer T. Inan**
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* June 2021 – Jan 2022: **AI and Signal Processing Intern**
+  * **Carex.AI / Hospital on Mobile**, Palo Alto, CA
+  * Developed signal processing pipelines to extract PPG from RGB video
+  * Built deep learning models for SpO2 prediction from facial and fingertip video
+  * Implemented real-time preprocessing pipelines for low-light and motion-intensive scenarios
   
 Skills
 ======
