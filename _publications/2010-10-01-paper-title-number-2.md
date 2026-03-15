@@ -2,7 +2,7 @@
 title: "Affinity-Division Multiplexing for Molecular Communications With Promiscuous Ligand Receptors"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/multiplexing
 date: 2023-07-13
 venue: 'IEEE Transactions on Molecular, Biological, and Multi-Scale Communications'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10182312'

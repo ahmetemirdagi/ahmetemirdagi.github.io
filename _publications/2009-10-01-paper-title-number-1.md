@@ -2,7 +2,7 @@
 title: "Ratio shift keying modulation for time-varying molecular communication channels"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/rskmodulation
 date: "2023-07-25"
 venue: 'IEEE Transactions on NanoBioScience'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10193791/'
