@@ -26,9 +26,9 @@ author:
   avatar           : "6K3C6043[1] copy.jpg"
   name             : "Ahmet Rasim Emirdagi"
   pronouns         : # example: "she/her"  
-  bio : "PhD student in Electrical and Computer Engineering at Georgia Tech. I work on Deep Learning for biomedical time seriessignals, wearable health sensing, and interpretable AI."
+  bio : "PhD student in Electrical and Computer Engineering at Georgia Tech. I work on Deep Learning for biomedical time series signals, wearable health sensing, and interpretable AI."
   location         : "Atlanta, GA, USA"
-  employer         : "Inan Research Lab, Georgia Institute of Technology"
+  employer         : "Georgia Institute of Technology"
   uri              : # URL
   email            : "aemirdagi38@gmail.com" 
 
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0000-8324-4710"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://pmc.ncbi.nlm.nih.gov/search/?term=ahmet+rasim+emirdagi"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
