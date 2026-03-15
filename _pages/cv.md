@@ -31,6 +31,7 @@ Work experience
   * Developed signal processing pipelines to extract PPG from RGB video
   * Built deep learning models for SpO2 prediction from facial and fingertip video
   * Implemented real-time preprocessing pipelines for low-light and motion-intensive scenarios
+  * Supervisor: **Dr. Tamay Aykut**
   
 Publications
 ======
