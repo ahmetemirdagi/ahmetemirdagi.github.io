@@ -6,6 +6,7 @@ permalink: /teaching/teaching-one
 venue: "Koc University"
 date: 2022-02-01
 location: "Istanbul, Turkey"
+share: false
 ---
 
 As a teaching assistant for *Introduction to Data Science*, I supported undergraduate students in building a foundation in computational and statistical methods for data-driven analysis. The course started with introductory Python programming and progressively introduced the main concepts and tools of modern data science.
