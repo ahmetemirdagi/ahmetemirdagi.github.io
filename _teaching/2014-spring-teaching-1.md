@@ -1,15 +1,15 @@
 ---
-title: "Teaching Assistant for Introduction to Data Science (MAVA354 & SOCI354)"
+title: "MATLAB & Python Tutoring for the Learning and Teaching Office"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/teaching-one
-venue: "Koc University"
-date: 2022-02-01
+type: "Undergraduate academic support"
+permalink: /teaching/matlab-python-tutoring
+venue: "Koç University"
+date: 2021-07-30
 location: "Istanbul, Turkey"
 ---
 
-As a teaching assistant for *Introduction to Data Science*, I supported undergraduate students in building a foundation in computational and statistical methods for data-driven analysis. The course started with introductory Python programming and progressively introduced the main concepts and tools of modern data science.
+As part of Koç University’s Learning and Teaching Office, I provided tutoring support in MATLAB and Python to undergraduate students from a range of disciplines. My role focused on helping students strengthen their programming foundations and develop confidence in applying computational tools to their coursework.
 
-Topics included data preprocessing, exploratory data analysis, visualization, probability, statistical inference, regression, classification, and introductory machine learning. Through practical assignments and applied examples, students learned how to analyze real-world datasets and communicate insights effectively.
+I assisted students with core programming concepts such as variables, loops, conditionals, functions, arrays, and data visualization, while also helping them debug assignments and better understand problem-solving strategies. Depending on the student’s needs, the sessions also covered topics such as numerical computing, basic data analysis, and structuring code for clarity and efficiency.
 
-My role involved assisting with instructional activities, guiding students during problem-solving sessions, answering questions in office hours, and providing support for assignments and projects. I especially enjoyed helping students gain confidence in Python and develop an intuitive understanding of core data science techniques.
+Through one-on-one and small-group support, I worked with students to make technical concepts more approachable and to help them become more independent learners. I especially enjoyed making programming feel less intimidating for beginners and helping students build practical skills they could carry into later courses and projects.
