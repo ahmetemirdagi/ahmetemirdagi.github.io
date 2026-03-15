@@ -32,15 +32,6 @@ Work experience
   * Built deep learning models for SpO2 prediction from facial and fingertip video
   * Implemented real-time preprocessing pipelines for low-light and motion-intensive scenarios
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -61,4 +52,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for ICIP 
+* Reviewer for IEEE CVPR Med-Reasoner Workshop
+* Vice-President for Georgia Institute of Technology Fulbright Student Association
+
