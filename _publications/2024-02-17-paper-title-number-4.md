@@ -3,7 +3,7 @@ title: "Capacity analysis of molecular communications with ratio shift keying mo
 collection: publications
 category: conferences
 permalink: /publication/channelcapacitypaper
-date: 2022-10-05
+date: "2022-10-05"
 venue: 'Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3558583.3558845'
 citation: 'M. Serkan Kopuzlu, M. Okan Araz, Ahmet R. Emirdagi, and Murat Kuscu. 2022. Capacity analysis of molecular communications with ratio shift keying modulation. In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM '22). Association for Computing Machinery, New York, NY, USA, Article 7, 1–6. https://doi.org/10.1145/3558583.3558845
