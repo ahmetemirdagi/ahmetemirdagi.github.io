@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Ratio shift keying modulation for time-varying molecular communication channels"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2024-01
 venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10193791/'
+citation: 'M. O. Araz, A. R. Emirdagi, M. S. Kopuzlu and M. Kuscu, "Ratio Shift Keying Modulation for Time-Varying Molecular Communication Channels," in IEEE Transactions on NanoBioscience, vol. 23, no. 1, pp. 176-189, Jan. 2024, doi: 10.1109/TNB.2023.3298600. keywords: {Modulation;Molecular communication;Maximum likelihood estimation;Channel capacity;Time-varying channels;Molecular communications;modulation;ratio shift keying;concentration shift keying;channel capacity;maximum likelihood estimation;Fisher information;mobile molecular communications},'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+In this paper, we investigate a particular modulation scheme called Ratio Shift Keying (RSK), where the information is encoded in the concentration ratio of two different types of molecules. RSK modulation is hypothesized to enable accurate information transfer in dynamic MC scenarios where the time-varying channel characteristics affect both types of molecules equally.
