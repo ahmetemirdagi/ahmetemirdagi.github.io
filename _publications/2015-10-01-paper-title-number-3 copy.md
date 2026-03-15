@@ -2,7 +2,7 @@
 title: "Seismocardiography Pig Hypovolemia Dataset for Signal Quality Indexing and Validated Cardiac Timings"
 collection: publications
 category: manuscripts
-permalink: /publication/naturescienticificdata
+permalink: /publication/2015-10-01-paper-title-number-3
 date: 2026-02-11
 venue: 'Nature Scientific Data'
 paperurl: 'https://www.nature.com/articles/s41597-026-06733-2'
