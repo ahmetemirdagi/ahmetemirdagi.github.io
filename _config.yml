@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Ahmet Rasim Emirdagi"
 title_separator          : "-"
 name                     : &name "Ahmet Rasim Emirdagi"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "description : "Personal website of Ahmet Rasim Emirdagi — PhD student at Georgia Tech, Graduate Researcher in wearable health AI"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ahmetemirdagi.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Ahmet Rasim Emirdagi"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio : "PhD student in Electrical and Computer Engineering at Georgia Tech. I work on Deep Learning for biomedical time seriessignals, wearable health sensing, and interpretable AI."
   location         : "Atlanta, GA, USA"
-  employer         : "Georgia Institute of Technology"
+  employer         : "Inan Research Lab, Georgia Institute of Technology"
   uri              : # URL
   email            : "aemirdagi3@gatech.edu" 
 
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
