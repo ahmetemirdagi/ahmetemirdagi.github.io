@@ -6,6 +6,7 @@ permalink: /teaching/matlab-python-tutoring
 venue: "Koç University"
 date: 2021-07-30
 location: "Istanbul, Turkey"
+share: false
 ---
 
 As part of Koç University’s Learning and Teaching Office, I provided tutoring support in MATLAB and Python to undergraduate students from a range of disciplines. My role focused on helping students strengthen their programming foundations and develop confidence in applying computational tools to their coursework.
