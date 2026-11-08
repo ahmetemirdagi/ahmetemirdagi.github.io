@@ -90,6 +90,8 @@ publication_category:
     title: 'Conference Papers'
   preprints:
     title: 'Preprints'
+  under_review:
+    title: 'Under Review'
   abstracts:
     title: 'Abstracts & Posters'
   theses:

@@ -10,9 +10,8 @@ authors: "**A. R. Emirdagi**, M. S. Kopuzlu, M. O. Araz, M. Kuscu"
 paperurl: "https://doi.org/10.1109/TMBMC.2023.3295338"
 doi: "10.1109/TMBMC.2023.3295338"
 topics: [molcom]
-selected: true
+selected: false
 citation: 'A. R. Emirdagi, M. S. Kopuzlu, M. O. Araz, and M. Kuscu, "Affinity-Division Multiplexing for Molecular Communications With Promiscuous Ligand Receptors," IEEE Transactions on Molecular, Biological, and Multi-Scale Communications, vol. 9, no. 3, pp. 318–322, Sept. 2023, doi: 10.1109/TMBMC.2023.3295338.'
-selected_rank: 3
 redirect_from:
   - /publication/multiplexing
 share: false
