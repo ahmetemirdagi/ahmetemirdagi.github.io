@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Fulbright Scholar and a Ph.D. student at the Georgia Institute of Technology as a graduate researcher in the [Inan Research Lab](https://irl.gatech.edu/), where I work under the supervision of [Prof. Omer T. Inan](https://ece.gatech.edu/directory/omer-t-inan). Prior to Georgia Tech, I earned my B.S. from Koç University, where I double majored in Electrical and Electronics Engineering and Physics. As part of my undergraduate education, I also studied at Yonsei University in Electrical and Electronics Engineering.
+I am a Fulbright alumnus and a Ph.D. student in Electrical and Computer Engineering at the Georgia Institute of Technology, where I am a graduate researcher in the [Inan Research Lab](https://irl.gatech.edu/) under the supervision of [Prof. Omer T. Inan](https://ece.gatech.edu/directory/omer-t-inan). I received my M.S. in Electrical and Computer Engineering from Georgia Tech with a 4.0 GPA. Before Georgia Tech, I earned my B.S. from Koç University with a double major in Electrical and Electronics Engineering and Physics and spent time at Yonsei University in Seoul, studying Electrical and Electronic Engineering.
 
- My research centers on deep learning for joint acoustic emissions, with a particular emphasis on knee acoustic signals. More broadly, I am interested in efficient deep learning systems for edge-device deployment in wearable healthcare, as well as foundation models, especially multimodal fusion for cardiovascular signals.
+My research focuses on **deep learning for cardiovascular monitoring**, particularly with **seismocardiography (SCG)**. I work on:
+
+- **Current project: low cardiac output syndrome (LCOS) in infants after heart surgery:** detecting LCOS in infants after congenital heart surgery, in collaboration with Cleveland Clinic Children's.
+- **Efficient deep learning for the edge:** accelerating diffusion-based models and shrinking their memory footprint so they run in real time on resource-constrained wearables (e.g., [EffSCG](/publication/effscg), IEEE JBHI).
+- **Data-efficient adaptation of foundation models:** parameter-efficient fine-tuning (LoRA) of large pretrained models with only a handful of labeled examples (e.g., [CT metal artifact reduction](/publication/ct-editmar), CVPRW 2026).

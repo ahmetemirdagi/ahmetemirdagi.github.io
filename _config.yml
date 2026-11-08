@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Ahmet Rasim Emirdagi"
 title_separator          : "-"
 name                     : &name "Ahmet Rasim Emirdagi"
-description              : &description "Personal website of Ahmet Rasim Emirdagi — PhD student at Georgia Tech, Graduate Researcher in wearable health AI"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal website of Ahmet Rasim Emirdagi — PhD student at Georgia Tech working on deep learning for cardiovascular care"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ahmetemirdagi.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "6K3C6043[1] copy.jpg"
   name             : "Ahmet Rasim Emirdagi"
   pronouns         : # example: "she/her"  
-  bio : "PhD student in Electrical and Computer Engineering at Georgia Tech. I work on Deep Learning for biomedical time series signals, wearable health sensing, and interpretable AI."
+  bio : "PhD student in ECE at Georgia Tech and Fulbright alumnus. Deep learning for cardiovascular care: seismocardiography, efficient edge AI, and LCOS in infants after heart surgery."
   location         : "Atlanta, GA, USA"
   employer         : "Georgia Institute of Technology"
   uri              : # URL
@@ -84,12 +84,16 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
+  abstracts:
+    title: 'Abstracts & Posters'
+  theses:
+    title: 'Thesis'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

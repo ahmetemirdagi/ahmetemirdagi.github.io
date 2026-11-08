@@ -11,19 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Electrical and Computer Engineering, Georgia Institute of Technology, 2024 - 
-* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2024-2026
-* B.S. in Electrical and Electronics Engineering, 2018-2024
+* **Ph.D. in Electrical and Computer Engineering**, Georgia Institute of Technology, 2024 – present
+  * Advisor: Prof. Omer T. Inan
+* **M.S. in Electrical and Computer Engineering**, Georgia Institute of Technology, 2024 – 2026
+  * GPA: 4.0/4.0
+  * Thesis: *Interpretable Deep Transfer Learning for Non-Invasive Assessment of Knee Osteoarthritis Via Acoustic Emissions*
+* **B.S. in Electrical and Electronics Engineering and Physics (double major)**, Koç University, 2018 – 2024
+  * Visiting student, Electrical and Electronic Engineering, Yonsei University, Seoul, South Korea
 
-Work experience
+Research experience
 ======
 
 * Jan 2024 – Present: **Graduate Researcher**
   * **Inan Research Lab, Georgia Institute of Technology**, Atlanta, GA
-  * Developed an efficient inference framework for diffusion models for edge devices for wearable devices.
-  * Led domain adaptation research for joint acoustic emission (JAE) data to improve generalization across sensing platforms
-  * Conducted statistical analysis of JAE features in osteoarthritis patients
-  * Co-authored several Q1 journal articles and conference papers. 
+  * Developed EffSCG, an efficient inference framework that accelerates diffusion-based seismocardiogram denoisers for real-time use on resource-constrained wearable devices (IEEE JBHI).
+  * Building generative models for synthesizing cardiovascular signals such as SCG; contributed to cylindrical geodesic flow matching for physiological signal translation (NeurIPS 2026).
+  * Adapted large image-editing foundation models with LoRA for data-efficient medical image restoration using as few as 16 paired examples (CVPRW 2026).
+  * Contributed to wearable musculoskeletal sensing research, including domain adaptation and statistical analysis of joint acoustic emissions.
   * Supervisor: **Prof. Omer T. Inan**
 
 * June 2021 – Jan 2022: **AI and Signal Processing Intern**
@@ -32,7 +36,7 @@ Work experience
   * Built deep learning models for SpO2 prediction from facial and fingertip video
   * Implemented real-time preprocessing pipelines for low-light and motion-intensive scenarios
   * Supervisor: **Dr. Tamay Aykut**
-  
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -51,9 +55,13 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Honors
+======
+* Fulbright Scholarship (completed)
+
 Service and leadership
 ======
-* Reviewer for ICIP 
-* Reviewer for IEEE CVPR Med-Reasoner Workshop
-* Vice-President for Georgia Institute of Technology Fulbright Student Association
+* Reviewer, IEEE International Conference on Image Processing (ICIP)
+* Reviewer, CVPR Med-Reasoner Workshop
+* Former Vice-President, Georgia Tech Fulbright Student Association
 
