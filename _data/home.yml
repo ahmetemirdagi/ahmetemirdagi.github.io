@@ -1,0 +1,31 @@
+# Content for the home page (layout: magazine-home). Edit text here; no HTML needed.
+kicker: "Ph.D. student · Georgia Tech"
+headline_pre: "Bringing"
+headline_red: "deep learning"
+headline_post: "to cardiovascular care"
+tagline_pre: "The"
+tagline_red: "smallest"
+tagline_post: "hearts deserve the smartest monitors."
+standfirst: "Ahmet Rasim Emirdagi, a Ph.D. student at Georgia Tech, works on deep learning that runs on wearables and supports clinicians: from seismocardiography to detecting low cardiac output in infants after heart surgery."
+now: "Working on LCOS detection in infants after heart surgery · Nov 2026"
+portrait_caption: "Ahmet Rasim Emirdagi, Inan Research Lab, Georgia Tech."
+about: "A Fulbright alumnus now in the Inan Research Lab, advised by Prof. Omer T. Inan, he works where clinical cardiology meets machine learning that is light, fast and careful with scarce data."
+
+research:
+  - title: "LCOS in infants after heart surgery"
+    current: true
+    text: "Detecting low cardiac output syndrome (LCOS) in infants after congenital heart surgery, in collaboration with Cleveland Clinic Children's."
+  - title: "Seismocardiography and edge AI"
+    text: "SCG wearables, and deep learning light enough to run on the device itself, as in EffSCG."
+  - title: "Data efficient foundation models"
+    text: "Adapting large pretrained models to new medical tasks with LoRA, from a handful of examples."
+
+glance:
+  - main: "Ph.D. student, ECE, Georgia Tech"
+  - main: "Inan Research Lab"
+    sub: "Prof. Omer T. Inan"
+  - main: "Fulbright alumnus"
+  - main: "M.S. ECE, Georgia Tech"
+    sub: "GPA 4.0"
+  - main: "B.S. Koç University"
+    sub: "EEE + Physics, time at Yonsei, Seoul"

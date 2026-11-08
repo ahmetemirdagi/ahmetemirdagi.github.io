@@ -12,6 +12,8 @@ doi: "10.1038/s41597-026-06733-2"
 topics: [scg]
 selected: false
 citation: 'M. J. Cho, C. O. Yaldiz, A. Nawar, et al., "Seismocardiography Pig Hypovolemia Dataset for Signal Quality Indexing and Validated Cardiac Timings," Scientific Data, vol. 13, art. 423, 2026, doi: 10.1038/s41597-026-06733-2.'
+redirect_from:
+  - /publication/naturescienticificdata
 share: false
 ---
 To facilitate the manual annotation process of SCG signals, we developed an open-source graphical user interface, providing a simple, efficient, and accurate tool. Using data from a porcine hypovolemia protocol, we annotated SCG waveforms for signal quality scores and annotated cardiac timing intervals with 17,059 SCG heartbeats.

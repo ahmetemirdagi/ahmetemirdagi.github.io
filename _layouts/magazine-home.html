@@ -1,0 +1,116 @@
+---
+layout: magazine
+---
+{% assign h = site.data.home %}
+<header class="wrap mast" id="top">
+  <div class="mast-row caption-3"><span>Profile</span><span>{{ site.time | date: '%B %Y' }}</span><span>Engineering · Health</span></div>
+  <div class="hero">
+    <figure>
+      <div class="ph"><img src="{{ '/images/portrait.jpg' | relative_url }}" alt="Portrait of {{ site.author.name }}" width="591" height="591"></div>
+      <figcaption><b>Above</b><span>{{ h.portrait_caption }}</span></figcaption>
+    </figure>
+    <div class="hero-txt">
+      <span class="kicker caption-3">{{ h.kicker }}</span>
+      <h1>{{ h.headline_pre }} <span class="r">{{ h.headline_red }}</span><br>{{ h.headline_post }}</h1>
+      <p class="hero-line">{{ h.tagline_pre }} <span>{{ h.tagline_red }}</span> {{ h.tagline_post }}</p>
+      <p class="stand">{{ h.standfirst }}</p>
+      {% if h.now %}<p class="nowline"><b>Now</b><span>{{ h.now }}</span></p>{% endif %}
+      <div class="links">
+        <a class="btn red" href="#papers">Publications</a>
+        <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
+        <a class="btn" href="mailto:{{ site.author.email }}">Email</a>
+        <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="sec" id="research" aria-labelledby="research-h">
+  <div class="wrap">
+    <div class="shead reveal"><h2 class="heading-2" id="research-h">The research</h2></div>
+    <p class="about reveal">{{ h.about }}</p>
+    <div class="feature">
+      <div class="chaps">
+        {% for r in h.research %}
+        <article class="chap reveal">
+          <span class="num" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+          <div>
+            <h3>{{ r.title }}{% if r.current %} <span class="cur">Current project</span>{% endif %}</h3>
+            <p>{{ r.text }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <aside class="aside reveal" aria-labelledby="glance-h">
+        <h3 class="caption-3" id="glance-h">At a glance</h3>
+        <ul>
+          {% for g in h.glance %}<li>{{ g.main }}{% if g.sub %} <span>· {{ g.sub }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="papers" aria-labelledby="papers-h">
+  <div class="wrap">
+    <div class="shead reveal"><h2 class="heading-2" id="papers-h">Selected papers</h2></div>
+    {% assign selected = site.publications | where_exp: "p", "p.selected_rank != nil" | sort: "selected_rank" %}
+    <div class="papers">
+      {% for p in selected %}
+      {% assign yr = p.date | date: '%Y' %}
+      {% assign first2 = p.authors | slice: 0, 2 %}
+      <article class="paper reveal">
+        <span class="num" aria-hidden="true">{{ forloop.index }}</span>
+        <div>
+          <p class="v caption-3">{% if p.venue_short contains yr %}{{ p.venue_short }}{% else %}{{ p.venue_short }} · {{ yr }}{% endif %}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}</p>
+          <h3>{% if p.paperurl %}<a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+          <p class="au">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          {% include magazine-pub-links.html p=p %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% assign pubs = site.publications | sort: "date" | reverse %}
+    <details class="allnews allpubs reveal">
+      <summary><span>All publications</span><span class="count caption-3">{{ site.publications.size }} items</span></summary>
+      <ul class="pubgroups">
+        {% for cat in site.publication_category %}
+        {% assign group = pubs | where: "category", cat[0] %}
+        {% if group.size > 0 %}
+        <li class="pg"><h3 class="caption-3">{{ cat[1].title }}<span>{{ group.size }}</span></h3><ol>
+          {% for p in group %}
+          {% assign first2 = p.authors | slice: 0, 2 %}
+          <li><span class="yr caption-3">{{ p.date | date: '%Y' }}</span><div>
+            <p class="pt">{% if p.paperurl %}<a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+            <p class="pa">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+            <p class="pv">{{ p.venue_short }}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}{% capture lk %}{% include magazine-pub-links.html p=p inline=true %}{% endcapture %}{% assign lk = lk | strip %}{% if lk != '' %}<span class="pl">{{ lk }}</span>{% endif %}</p>
+          </div></li>
+          {% endfor %}
+        </ol></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section class="sec" id="news" aria-labelledby="news-h">
+  <div class="wrap">
+    <div class="shead reveal"><h2 class="heading-2" id="news-h">Briefs</h2></div>
+    <ul class="briefs reveal">
+      {% for n in site.data.news limit: 3 %}
+      <li><span class="d caption-3">{{ n.date }}</span><p>{{ n.text }}</p></li>
+      {% endfor %}
+    </ul>
+    <details class="allnews reveal">
+      <summary><span>All news</span><span class="count caption-3">{{ site.data.news.size }} items</span></summary>
+      <ul class="newslist">
+        {% for n in site.data.news %}
+        <li><span class="d caption-3">{{ n.date }}</span><p>{{ n.text }}</p></li>
+        {% endfor %}
+      </ul>
+    </details>
+  </div>
+</section>

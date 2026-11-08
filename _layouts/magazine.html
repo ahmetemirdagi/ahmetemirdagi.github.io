@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.url == "/" %}{% assign page_title = site.title %}{% else %}{% assign page_title = page.title | append: " · " | append: site.title %}{% endif %}
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page.excerpt_meta | default: site.description | strip_html | strip_newlines | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ site.description | escape }}">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/images/portrait.jpg' | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/magazine.css' | relative_url }}">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":{{ site.author.name | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"image":{{ '/images/portrait.jpg' | absolute_url | jsonify }},"jobTitle":"Ph.D. student","affiliation":{"@type":"Organization","name":"Georgia Institute of Technology"},"sameAs":[{{ site.author.googlescholar | jsonify }},{{ site.author.orcid | jsonify }},{{ 'https://github.com/' | append: site.author.github | jsonify }}]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+{% assign home = '/' | relative_url %}
+<nav class="nav" aria-label="Primary">
+  <a class="brand" href="{{ home }}">Emirdagi<b>.</b></a>
+  <div class="nav-links">
+    <a href="{{ home }}#research" data-navlink>Research</a>
+    <a href="{{ home }}#papers" data-navlink>Papers</a>
+    <a href="{{ home }}#news" data-navlink>News</a>
+    <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+  </div>
+  <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu" aria-label="Mobile menu">
+  <a href="{{ home }}#research"><span>01</span>Research</a>
+  <a href="{{ home }}#papers"><span>02</span>Papers</a>
+  <a href="{{ home }}#news"><span>03</span>News</a>
+  <a href="{{ '/cv/' | relative_url }}"><span>04</span>CV</a>
+  <a href="#contact"><span>05</span>Contact</a>
+</div>
+
+<main id="main">
+{{ content }}
+</main>
+
+<footer id="contact">
+  <div class="wrap foot">
+    <div>
+      <p class="caption-3" style="color:var(--red);margin-bottom:16px">Get in touch</p>
+      {% assign em = site.author.email | split: '@' %}
+      <p class="big"><a href="mailto:{{ site.author.email }}">{{ em[0] }}<br>@{{ em[1] }}</a></p>
+    </div>
+    <div class="links">
+      <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="btn" href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a>
+      <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
+    <div class="meta"><span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span><span>{{ site.author.location }}</span></div>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/magazine.js' | relative_url }}" defer></script>
+</body>
+</html>

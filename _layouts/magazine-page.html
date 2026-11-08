@@ -1,0 +1,12 @@
+---
+layout: magazine
+---
+<header class="wrap page-head">
+  <div class="mast-row caption-3"><span>{{ site.author.name }}</span><span>{{ page.title }}</span><span>{{ site.time | date: '%B %Y' }}</span></div>
+  <h1 class="page-title">{{ page.title }}<span>.</span></h1>
+</header>
+<section class="wrap">
+  <div class="prose" style="margin-top:48px">
+{{ content }}
+  </div>
+</section>

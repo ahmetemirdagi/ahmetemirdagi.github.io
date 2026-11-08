@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: magazine-page
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
