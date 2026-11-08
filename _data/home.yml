@@ -28,4 +28,6 @@ glance:
   - main: "M.S. ECE, Georgia Tech"
     sub: "GPA 4.0"
   - main: "B.S. Koç University"
-    sub: "EEE + Physics, time at Yonsei, Seoul"
+    sub: "EEE + Physics"
+  - main: "Student, Yonsei University"
+    sub: "Seoul"

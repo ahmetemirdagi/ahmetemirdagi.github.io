@@ -16,7 +16,7 @@ Education
   * GPA: 4.0/4.0
   * Thesis: *Interpretable Deep Transfer Learning for Non-Invasive Assessment of Knee Osteoarthritis Via Acoustic Emissions*
 * **B.S. in Electrical and Electronics Engineering and Physics (double major)**, Koç University, 2018 – 2024
-  * Visiting student, Electrical and Electronic Engineering, Yonsei University, Seoul, South Korea
+  * Student, Electrical and Electronic Engineering, Yonsei University, Seoul, South Korea
 
 Research experience
 ======
