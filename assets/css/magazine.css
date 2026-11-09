@@ -370,3 +370,4 @@ footer{padding:96px 0}
 .prose .wordwrap{margin-bottom:24px;color:var(--ink2)}
 .prose .page__meta,.prose .fa{display:none}
 @media (max-width:760px){.page-title{font-size:36px;line-height:40px}.page-head{padding-top:96px}}
+.paper .v .fa.aw,.pubgroups .fa.aw{color:var(--red);border-color:var(--red)}

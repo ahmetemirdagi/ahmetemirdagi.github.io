@@ -63,7 +63,7 @@ layout: magazine
       <article class="paper reveal">
         <span class="num" aria-hidden="true">{{ forloop.index }}</span>
         <div>
-          <p class="v caption-3">{% if p.venue_short contains yr %}{{ p.venue_short }}{% else %}{{ p.venue_short }} · {{ yr }}{% endif %}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}</p>
+          <p class="v caption-3">{% if p.venue_short contains yr %}{{ p.venue_short }}{% else %}{{ p.venue_short }} · {{ yr }}{% endif %}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}{% if p.award %} <span class="fa aw">{{ p.award }}</span>{% endif %}</p>
           <h3>{% if p.paperurl %}<a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
           <p class="au">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
           {% include magazine-pub-links.html p=p %}
@@ -85,7 +85,7 @@ layout: magazine
           <li><span class="yr caption-3">{{ p.date | date: '%Y' }}</span><div>
             <p class="pt">{% if p.paperurl %}<a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
             <p class="pa">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
-            <p class="pv">{{ p.venue_short }}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}{% capture lk %}{% include magazine-pub-links.html p=p inline=true %}{% endcapture %}{% assign lk = lk | strip %}{% if lk != '' %}<span class="pl">{{ lk }}</span>{% endif %}</p>
+            <p class="pv">{{ p.venue_short }}{% if first2 == '**' %} <span class="fa">First author</span>{% endif %}{% if p.award %} <span class="fa aw">{{ p.award }}</span>{% endif %}{% capture lk %}{% include magazine-pub-links.html p=p inline=true %}{% endcapture %}{% assign lk = lk | strip %}{% if lk != '' %}<span class="pl">{{ lk }}</span>{% endif %}</p>
           </div></li>
           {% endfor %}
         </ol></li>
