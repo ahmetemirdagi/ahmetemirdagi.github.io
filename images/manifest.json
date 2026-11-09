@@ -1,5 +1,8 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Ahmet Emirdagi",
+	"short_name": "Emirdagi",
+	"theme_color": "#E30A17",
+	"background_color": "#FFFFFF",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
