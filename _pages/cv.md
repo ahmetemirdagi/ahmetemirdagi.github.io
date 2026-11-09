@@ -72,5 +72,5 @@ Service and leadership
 ======
 * Reviewer, IEEE International Conference on Image Processing (ICIP), 2026
 * Reviewer, CVPR Med-Reasoner Workshop, 2026
-* Former Vice-President, Georgia Tech Fulbright Student Association
+* Former Vice-President, Georgia Tech Fulbright Student Association, 2025 – 2026
 
